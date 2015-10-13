@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+
+<link rel="stylesheet" href="{{ "/static/css/dialog.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/static/css/core.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/static/css/common.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/static/css/header.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/static/css/cool.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/static/css/style.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/static/css/mine.css" | prepend: site.baseurl }}">
+
+</head>
