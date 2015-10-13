@@ -2,7 +2,7 @@ README.md
 
 
 
-demo : http://dd.irmovl.com
+demo : http://site.irmovl.com
 
 init:
 
