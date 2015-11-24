@@ -9,4 +9,4 @@ url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-permalink: /:year:month:day.html
+permalink: /:categories/:title.html
