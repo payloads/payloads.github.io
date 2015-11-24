@@ -1,7 +1,7 @@
 # Site settings
 title: 「放肆的肆」
 
-description: > 全世界我是最帅的男人
+description: > # www
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
@@ -9,7 +9,4 @@ url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-
-
-
-permalink: /:categories/:title.html
+permalink: /:year:month:day.html

@@ -10,5 +10,4 @@ index: 1
 <div class="bd">
 <img src="static/img/index.jpg" width="580px">
 </div>
-
 </div>

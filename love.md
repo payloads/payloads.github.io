@@ -42,13 +42,4 @@ love: 1
 </ul>
 </div>
 </div>
-
-
-<div class="bd">
-
-
-
-<embed src="http://music.163.com/style/swf/widget.swf?sid=2221022&type=4&auto=0&width=310&height=430" width="330" height="450"  allowNetworking="all"></embed>
-
-</div>
 </div>
